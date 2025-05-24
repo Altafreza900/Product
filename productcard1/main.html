@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Mug Product Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f7f7f7;
+            margin: 0;
+        }
+        .product-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            display: flex;
+            width: 600px;
+            overflow: hidden;
+        }
+        .product-card img {
+            width: 50%;
+            object-fit: cover;
+        }
+        .product-info {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .product-info h3 {
+            font-size: 14px;
+            color: #777;
+            margin: 0;
+        }
+        .product-info h2 {
+            font-size: 24px;
+            margin: 5px 0;
+        }
+        .product-info p {
+            font-size: 14px;
+            color: #777;
+            margin: 10px 0;
+        }
+        .product-info .price {
+            font-size: 24px;
+            color: #256A71;
+            margin: 10px 0;
+        }
+        .product-info .original-price {
+            text-decoration: line-through;
+            font-size: 14px;
+            color: #bbb;
+            margin-left: 10px;
+        }
+        .add-to-cart {
+            background: #256A71;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="product-card">
+        <img src="mug.jpg" alt="White Coffee Mug">
+        <div class="product-info">
+            <h3>COFFEE. MUG</h3>
+            <h2>White Coffee Mug</h2>
+            <p>Coffee Mugs are designed to express emotions. These are acclaimed for their amazing designs & superior quality.</p>
+            <div class="price-section">
+                <span class="price">₹149</span>
+                <span class="original-price">₹230</span>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+</body>
+</html>
